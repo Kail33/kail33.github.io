@@ -29,7 +29,6 @@
 		<link rel='stylesheet' href='assets/css/title-size.css'>
 		<link rel='stylesheet' href='../error.hostinger.eu/index.html'>
 		<link rel="icon" href="assets/img/bg/icon.png" type="image/png" sizes="512x512"> </head>
-
 	<body>
 		<div id="site-loader">
 			<div class="loader"></div>
@@ -95,9 +94,15 @@
 						</a>
 					</div>
 					</footer>
-		</audio>
-		<audio id="audio-player" loop="loop">
-					<source src="audio/1.mp3" type="audio/mp3"> </audio>
+	
+<script language="JavaScript" src="audio/audio-player.js"></script>
+ <object type="application/x-shockwave-flash" data="audio/player.swf" id="audioplayer1" height="24" width="290">
+ <param name="movie" value="audio/player.swf">
+ <param name="FlashVars" value="playerID=1&amp;soundFile=/audio/1.mp3">
+ <param name="quality" value="high">
+ <param name="menu" value="false">
+ <param name="wmode" value="transparent">
+ </object>
 				</div>
 				<script type="text/javascript">
 				rus_date()
